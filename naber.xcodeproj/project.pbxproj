@@ -15,6 +15,11 @@
 		2089A6C520FEDFCB0005527D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2089A6C320FEDFCB0005527D /* LaunchScreen.storyboard */; };
 		2089A6D020FEDFCB0005527D /* naberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2089A6CF20FEDFCB0005527D /* naberTests.swift */; };
 		2089A6DB20FEDFCB0005527D /* naberUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2089A6DA20FEDFCB0005527D /* naberUITests.swift */; };
+		2089A6EA20FEE0C60005527D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2089A6E920FEE0C50005527D /* MapKit.framework */; };
+		2089A6ED20FEEC8B0005527D /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2089A6EC20FEEC8B0005527D /* ApiManager.swift */; };
+		2089A6F320FEF29C0005527D /* Pods_naber.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2089A6F220FEF29C0005527D /* Pods_naber.framework */; };
+		2089A6F520FEF5C50005527D /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2089A6F420FEF5C50005527D /* Response.swift */; };
+		2089A6F820FEF63D0005527D /* BicycleRental.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2089A6F720FEF63D0005527D /* BicycleRental.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,14 @@
 		2089A6D620FEDFCB0005527D /* naberUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = naberUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2089A6DA20FEDFCB0005527D /* naberUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = naberUITests.swift; sourceTree = "<group>"; };
 		2089A6DC20FEDFCB0005527D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2089A6E920FEE0C50005527D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		2089A6EB20FEE0CF0005527D /* naber.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = naber.entitlements; sourceTree = "<group>"; };
+		2089A6EC20FEEC8B0005527D /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		2089A6F220FEF29C0005527D /* Pods_naber.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_naber.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2089A6F420FEF5C50005527D /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		2089A6F720FEF63D0005527D /* BicycleRental.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BicycleRental.swift; sourceTree = "<group>"; };
+		4CCB05D4808DD2350A7AF0D5 /* Pods-naber.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-naber.debug.xcconfig"; path = "Pods/Target Support Files/Pods-naber/Pods-naber.debug.xcconfig"; sourceTree = "<group>"; };
+		98720081FE7C0AA64D0F7B15 /* Pods-naber.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-naber.release.xcconfig"; path = "Pods/Target Support Files/Pods-naber/Pods-naber.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2089A6F320FEF29C0005527D /* Pods_naber.framework in Frameworks */,
+				2089A6EA20FEE0C60005527D /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				2089A6CE20FEDFCB0005527D /* naberTests */,
 				2089A6D920FEDFCB0005527D /* naberUITests */,
 				2089A6B520FEDFCA0005527D /* Products */,
+				2089A6E820FEE0C50005527D /* Frameworks */,
+				4A1230B6F6DE38EE2C65825C /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +116,8 @@
 		2089A6B620FEDFCA0005527D /* naber */ = {
 			isa = PBXGroup;
 			children = (
+				2089A6F620FEF6270005527D /* model */,
+				2089A6EB20FEE0CF0005527D /* naber.entitlements */,
 				2089A6B720FEDFCA0005527D /* AppDelegate.swift */,
 				2089A6B920FEDFCA0005527D /* ViewController.swift */,
 				2089A6BB20FEDFCA0005527D /* Main.storyboard */,
@@ -128,6 +147,34 @@
 			path = naberUITests;
 			sourceTree = "<group>";
 		};
+		2089A6E820FEE0C50005527D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2089A6F220FEF29C0005527D /* Pods_naber.framework */,
+				2089A6E920FEE0C50005527D /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2089A6F620FEF6270005527D /* model */ = {
+			isa = PBXGroup;
+			children = (
+				2089A6EC20FEEC8B0005527D /* ApiManager.swift */,
+				2089A6F420FEF5C50005527D /* Response.swift */,
+				2089A6F720FEF63D0005527D /* BicycleRental.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		4A1230B6F6DE38EE2C65825C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4CCB05D4808DD2350A7AF0D5 /* Pods-naber.debug.xcconfig */,
+				98720081FE7C0AA64D0F7B15 /* Pods-naber.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +182,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2089A6DF20FEDFCB0005527D /* Build configuration list for PBXNativeTarget "naber" */;
 			buildPhases = (
+				426727460AC2ADC01545108B /* [CP] Check Pods Manifest.lock */,
 				2089A6B020FEDFCA0005527D /* Sources */,
 				2089A6B120FEDFCA0005527D /* Frameworks */,
 				2089A6B220FEDFCA0005527D /* Resources */,
+				894B0BE68FD9240C47F92D89 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -196,6 +245,17 @@
 				TargetAttributes = {
 					2089A6B320FEDFCA0005527D = {
 						CreatedOnToolsVersion = 9.4;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					2089A6CA20FEDFCB0005527D = {
 						CreatedOnToolsVersion = 9.4;
@@ -254,14 +314,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		426727460AC2ADC01545108B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-naber-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		894B0BE68FD9240C47F92D89 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-naber/Pods-naber-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-naber/Pods-naber-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2089A6B020FEDFCA0005527D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2089A6ED20FEEC8B0005527D /* ApiManager.swift in Sources */,
+				2089A6F820FEF63D0005527D /* BicycleRental.swift in Sources */,
 				2089A6BA20FEDFCA0005527D /* ViewController.swift in Sources */,
 				2089A6B820FEDFCA0005527D /* AppDelegate.swift in Sources */,
 				2089A6C020FEDFCA0005527D /* naber.xcdatamodeld in Sources */,
+				2089A6F520FEF5C50005527D /* Response.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,7 +474,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos11.4;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -423,7 +527,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos11.4;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
@@ -432,11 +536,14 @@
 		};
 		2089A6E020FEDFCB0005527D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CCB05D4808DD2350A7AF0D5 /* Pods-naber.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = naber/naber.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9HB4HJB5J8;
 				INFOPLIST_FILE = naber/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,11 +557,14 @@
 		};
 		2089A6E120FEDFCB0005527D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98720081FE7C0AA64D0F7B15 /* Pods-naber.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = naber/naber.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9HB4HJB5J8;
 				INFOPLIST_FILE = naber/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
