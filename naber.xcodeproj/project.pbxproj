@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2089A6B820FEDFCA0005527D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2089A6B720FEDFCA0005527D /* AppDelegate.swift */; };
+		2089A6BA20FEDFCA0005527D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2089A6B920FEDFCA0005527D /* ViewController.swift */; };
+		2089A6BD20FEDFCA0005527D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2089A6BB20FEDFCA0005527D /* Main.storyboard */; };
+		2089A6C020FEDFCA0005527D /* naber.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2089A6BE20FEDFCA0005527D /* naber.xcdatamodeld */; };
+		2089A6C220FEDFCB0005527D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2089A6C120FEDFCB0005527D /* Assets.xcassets */; };
+		2089A6C520FEDFCB0005527D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2089A6C320FEDFCB0005527D /* LaunchScreen.storyboard */; };
+		2089A6D020FEDFCB0005527D /* naberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2089A6CF20FEDFCB0005527D /* naberTests.swift */; };
+		2089A6DB20FEDFCB0005527D /* naberUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2089A6DA20FEDFCB0005527D /* naberUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2089A6CC20FEDFCB0005527D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2089A6AC20FEDFCA0005527D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2089A6B320FEDFCA0005527D;
+			remoteInfo = naber;
+		};
+		2089A6D720FEDFCB0005527D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2089A6AC20FEDFCA0005527D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2089A6B320FEDFCA0005527D;
+			remoteInfo = naber;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2089A6B420FEDFCA0005527D /* naber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = naber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2089A6B720FEDFCA0005527D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2089A6B920FEDFCA0005527D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2089A6BC20FEDFCA0005527D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2089A6BF20FEDFCA0005527D /* naber.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = naber.xcdatamodel; sourceTree = "<group>"; };
+		2089A6C120FEDFCB0005527D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2089A6C420FEDFCB0005527D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2089A6C620FEDFCB0005527D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2089A6CB20FEDFCB0005527D /* naberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = naberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2089A6CF20FEDFCB0005527D /* naberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = naberTests.swift; sourceTree = "<group>"; };
+		2089A6D120FEDFCB0005527D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2089A6D620FEDFCB0005527D /* naberUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = naberUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2089A6DA20FEDFCB0005527D /* naberUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = naberUITests.swift; sourceTree = "<group>"; };
+		2089A6DC20FEDFCB0005527D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2089A6B120FEDFCA0005527D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2089A6C820FEDFCB0005527D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2089A6D320FEDFCB0005527D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2089A6AB20FEDFCA0005527D = {
+			isa = PBXGroup;
+			children = (
+				2089A6B620FEDFCA0005527D /* naber */,
+				2089A6CE20FEDFCB0005527D /* naberTests */,
+				2089A6D920FEDFCB0005527D /* naberUITests */,
+				2089A6B520FEDFCA0005527D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2089A6B520FEDFCA0005527D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2089A6B420FEDFCA0005527D /* naber.app */,
+				2089A6CB20FEDFCB0005527D /* naberTests.xctest */,
+				2089A6D620FEDFCB0005527D /* naberUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2089A6B620FEDFCA0005527D /* naber */ = {
+			isa = PBXGroup;
+			children = (
+				2089A6B720FEDFCA0005527D /* AppDelegate.swift */,
+				2089A6B920FEDFCA0005527D /* ViewController.swift */,
+				2089A6BB20FEDFCA0005527D /* Main.storyboard */,
+				2089A6C120FEDFCB0005527D /* Assets.xcassets */,
+				2089A6C320FEDFCB0005527D /* LaunchScreen.storyboard */,
+				2089A6C620FEDFCB0005527D /* Info.plist */,
+				2089A6BE20FEDFCA0005527D /* naber.xcdatamodeld */,
+			);
+			path = naber;
+			sourceTree = "<group>";
+		};
+		2089A6CE20FEDFCB0005527D /* naberTests */ = {
+			isa = PBXGroup;
+			children = (
+				2089A6CF20FEDFCB0005527D /* naberTests.swift */,
+				2089A6D120FEDFCB0005527D /* Info.plist */,
+			);
+			path = naberTests;
+			sourceTree = "<group>";
+		};
+		2089A6D920FEDFCB0005527D /* naberUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2089A6DA20FEDFCB0005527D /* naberUITests.swift */,
+				2089A6DC20FEDFCB0005527D /* Info.plist */,
+			);
+			path = naberUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2089A6B320FEDFCA0005527D /* naber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2089A6DF20FEDFCB0005527D /* Build configuration list for PBXNativeTarget "naber" */;
+			buildPhases = (
+				2089A6B020FEDFCA0005527D /* Sources */,
+				2089A6B120FEDFCA0005527D /* Frameworks */,
+				2089A6B220FEDFCA0005527D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = naber;
+			productName = naber;
+			productReference = 2089A6B420FEDFCA0005527D /* naber.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2089A6CA20FEDFCB0005527D /* naberTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2089A6E220FEDFCB0005527D /* Build configuration list for PBXNativeTarget "naberTests" */;
+			buildPhases = (
+				2089A6C720FEDFCB0005527D /* Sources */,
+				2089A6C820FEDFCB0005527D /* Frameworks */,
+				2089A6C920FEDFCB0005527D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2089A6CD20FEDFCB0005527D /* PBXTargetDependency */,
+			);
+			name = naberTests;
+			productName = naberTests;
+			productReference = 2089A6CB20FEDFCB0005527D /* naberTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2089A6D520FEDFCB0005527D /* naberUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2089A6E520FEDFCB0005527D /* Build configuration list for PBXNativeTarget "naberUITests" */;
+			buildPhases = (
+				2089A6D220FEDFCB0005527D /* Sources */,
+				2089A6D320FEDFCB0005527D /* Frameworks */,
+				2089A6D420FEDFCB0005527D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2089A6D820FEDFCB0005527D /* PBXTargetDependency */,
+			);
+			name = naberUITests;
+			productName = naberUITests;
+			productReference = 2089A6D620FEDFCB0005527D /* naberUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2089A6AC20FEDFCA0005527D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Melon Ltd";
+				TargetAttributes = {
+					2089A6B320FEDFCA0005527D = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					2089A6CA20FEDFCB0005527D = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 2089A6B320FEDFCA0005527D;
+					};
+					2089A6D520FEDFCB0005527D = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 2089A6B320FEDFCA0005527D;
+					};
+				};
+			};
+			buildConfigurationList = 2089A6AF20FEDFCA0005527D /* Build configuration list for PBXProject "naber" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2089A6AB20FEDFCA0005527D;
+			productRefGroup = 2089A6B520FEDFCA0005527D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2089A6B320FEDFCA0005527D /* naber */,
+				2089A6CA20FEDFCB0005527D /* naberTests */,
+				2089A6D520FEDFCB0005527D /* naberUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2089A6B220FEDFCA0005527D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2089A6C520FEDFCB0005527D /* LaunchScreen.storyboard in Resources */,
+				2089A6C220FEDFCB0005527D /* Assets.xcassets in Resources */,
+				2089A6BD20FEDFCA0005527D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2089A6C920FEDFCB0005527D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2089A6D420FEDFCB0005527D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2089A6B020FEDFCA0005527D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2089A6BA20FEDFCA0005527D /* ViewController.swift in Sources */,
+				2089A6B820FEDFCA0005527D /* AppDelegate.swift in Sources */,
+				2089A6C020FEDFCA0005527D /* naber.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2089A6C720FEDFCB0005527D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2089A6D020FEDFCB0005527D /* naberTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2089A6D220FEDFCB0005527D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2089A6DB20FEDFCB0005527D /* naberUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2089A6CD20FEDFCB0005527D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2089A6B320FEDFCA0005527D /* naber */;
+			targetProxy = 2089A6CC20FEDFCB0005527D /* PBXContainerItemProxy */;
+		};
+		2089A6D820FEDFCB0005527D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2089A6B320FEDFCA0005527D /* naber */;
+			targetProxy = 2089A6D720FEDFCB0005527D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2089A6BB20FEDFCA0005527D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2089A6BC20FEDFCA0005527D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2089A6C320FEDFCB0005527D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2089A6C420FEDFCB0005527D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2089A6DD20FEDFCB0005527D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2089A6DE20FEDFCB0005527D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2089A6E020FEDFCB0005527D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9HB4HJB5J8;
+				INFOPLIST_FILE = naber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.melonltd.naber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2089A6E120FEDFCB0005527D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9HB4HJB5J8;
+				INFOPLIST_FILE = naber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.melonltd.naber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2089A6E320FEDFCB0005527D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9HB4HJB5J8;
+				INFOPLIST_FILE = naberTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.melonltd.naberTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/naber.app/naber";
+			};
+			name = Debug;
+		};
+		2089A6E420FEDFCB0005527D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9HB4HJB5J8;
+				INFOPLIST_FILE = naberTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.melonltd.naberTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/naber.app/naber";
+			};
+			name = Release;
+		};
+		2089A6E620FEDFCB0005527D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9HB4HJB5J8;
+				INFOPLIST_FILE = naberUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.melonltd.naberUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = naber;
+			};
+			name = Debug;
+		};
+		2089A6E720FEDFCB0005527D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9HB4HJB5J8;
+				INFOPLIST_FILE = naberUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.melonltd.naberUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = naber;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2089A6AF20FEDFCA0005527D /* Build configuration list for PBXProject "naber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2089A6DD20FEDFCB0005527D /* Debug */,
+				2089A6DE20FEDFCB0005527D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2089A6DF20FEDFCB0005527D /* Build configuration list for PBXNativeTarget "naber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2089A6E020FEDFCB0005527D /* Debug */,
+				2089A6E120FEDFCB0005527D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2089A6E220FEDFCB0005527D /* Build configuration list for PBXNativeTarget "naberTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2089A6E320FEDFCB0005527D /* Debug */,
+				2089A6E420FEDFCB0005527D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2089A6E520FEDFCB0005527D /* Build configuration list for PBXNativeTarget "naberUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2089A6E620FEDFCB0005527D /* Debug */,
+				2089A6E720FEDFCB0005527D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2089A6BE20FEDFCA0005527D /* naber.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2089A6BF20FEDFCA0005527D /* naber.xcdatamodel */,
+			);
+			currentVersion = 2089A6BF20FEDFCA0005527D /* naber.xcdatamodel */;
+			path = naber.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2089A6AC20FEDFCA0005527D /* Project object */;
+}
